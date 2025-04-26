@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: apps/36
 kind: Deployment
 metadata:
   name: todo-app
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: todo
-        image: rajatkumar216/myfirstrepo:v1
+        image: rajatkumar216/myfirstrepo:36
         ports:
         - containerPort: 8000
